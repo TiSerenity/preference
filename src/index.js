@@ -8,10 +8,12 @@ import React, { Component } from 'react';
 render() {
   return (
     <div>  
-        <h1>hello world0.0.0.0....</h1> 
+        <h1>hello world0.0.0.0</h1> 
     </div>
   );
 }
+
+
 //请注意jsx语法里的div和h1标记，通过babel转换，最终得到的同样是react组件，div和h1组件是react自身提供的，和我们定义的App组件没什么不同
 //换言之，render返回的是div组件，div组件包括h1子组件，最终是一颗组件树。
 }
