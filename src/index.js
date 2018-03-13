@@ -1,5 +1,14 @@
 import ReactDOM from 'react-dom';
 import React, { Component } from 'react';
+const App=(props,context)=>{
+  return (
+    <div>
+      <Greeting who={'world'} />
+      <Greeting who={'react'} />
+    </div>
+  )
+}
+
  class App extends Component {
 
 //它只有一个函数，render，既可以渲染自己，决定自己在屏幕上画出什么
@@ -13,6 +22,7 @@ render() {
   );
 }
 }
+
 class Greeting extends Component {
   render() {
     return (
