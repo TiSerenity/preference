@@ -6,18 +6,18 @@ const App=(props,context)=>{
     <div>
       <Greeting who={'world'} />
       <Greeting who={'react'} />
-    <div/>
+    
     <div>
       <Greeting defaultWho={'world'} />
       <Greeting defaultWho={'react'} />
     </div>
-    return (
+  
     <div>
       <Greeting defaultWho={props.defaultWho} />
       <GreetingInput defaultWho={props.defaultWho}/>
     </div>
-  )
-}
+  
+
     </div>
   )
 }
