@@ -8,8 +8,14 @@ const App=(props,context)=>{
       <div>
       <Greeting defaultWho={'world'} />
       <Greeting defaultWho={'react'} />
-      <Greeting  />
     </div>
+    return (
+    <div>
+      <Greeting defaultWho={props.defaultWho} />
+      <GreetingInput defaultWho={props.defaultWho}/>
+    </div>
+  )
+}
     </div>
   )
 }
