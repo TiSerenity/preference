@@ -13,8 +13,8 @@ const App=(props,context)=>{
     
   
     
-      {/* <Greeting defaultWho={props.defaultWho} />
-      <GreetingInput defaultWho={props.defaultWho}/> */}
+       <Greeting defaultWho={props.defaultWho} />
+      <GreetingInput defaultWho={props.defaultWho}/>
     
   
 
