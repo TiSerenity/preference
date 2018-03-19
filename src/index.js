@@ -7,15 +7,15 @@ const App=(props,context)=>{
       <Greeting who={'world'} />
       <Greeting who={'react'} />
     
-    <div>
+    
       <Greeting defaultWho={'world'} />
       <Greeting defaultWho={'react'} />
-    </div>
+    
   
-    <div>
+    
       <Greeting defaultWho={props.defaultWho} />
       <GreetingInput defaultWho={props.defaultWho}/>
-    </div>
+    
   
 
     </div>
