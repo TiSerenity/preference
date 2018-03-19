@@ -18,7 +18,8 @@ class Greeting extends Component {
   }
   //点击按钮转换文字
   state={
-    who:'world'
+    who:this.props.defaultWho
+  }
   }
   switchName=()=>{
     if (this.state.who==='world')
