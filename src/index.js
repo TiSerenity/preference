@@ -22,13 +22,13 @@ const App=(props,context)=>{
   )
 }
 class Greeting extends Component {
-  render() {
-    return (
-      <div>  
-          <h1>{`hello ${this.props.who}`}</h1> 
-      </div>
-    );
-  }
+  // render() {
+  //   return (
+  //     <div>  
+  //         <h1>{`hello ${this.props.who}`}</h1> 
+  //     </div>
+  //   );
+  // }
   //点击按钮转换文字
   state={
     who:this.props.defaultWho
