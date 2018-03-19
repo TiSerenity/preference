@@ -5,6 +5,11 @@ const App=(props,context)=>{
     <div>
       <Greeting who={'world'} />
       <Greeting who={'react'} />
+      <div>
+      <Greeting defaultWho={'world'} />
+      <Greeting defaultWho={'react'} />
+      <Greeting  />
+    </div>
     </div>
   )
 }
